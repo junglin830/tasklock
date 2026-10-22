@@ -3,6 +3,15 @@
 **Collision-free task IDs for a shared `tasks.json` when several AI coding agents work at the same time.**
 多個 AI agent 同時共用一份 `tasks.json` 時，保證任務編號不撞號、不互相覆蓋。
 
+## Install
+
+```bash
+pip install git+https://github.com/junglin830/tasklock
+tasklock --help
+```
+
+Or just copy the single `.py` file — it has no dependencies.
+
 ## Why / 為什麼
 
 If you run Claude Code, Codex, Cursor or your own scripts side by side on one repo, they often share a task list.
